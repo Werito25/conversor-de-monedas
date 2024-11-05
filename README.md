@@ -17,23 +17,8 @@ El proyecto está compuesto por las siguientes clases principales:
 
 ConversorMonedas: esta clase administra la lógica de conversión de monedas y llama a la clase ExchangeRateAPI para obtener las tasas de cambio.
 ExchangeRateAPI: se encarga de realizar las solicitudes HTTP a la API de ExchangeRate y de procesar las respuestas JSON para obtener las tasas de cambio actualizadas.
-Ejecución del Proyecto
-Clonar el repositorio:
 
-bash
-Copiar código
-git clone https://github.com/tu-usuario/conversor-monedas
-Configurar la API Key:
-
-Accede a ExchangeRate API y obtén una API Key.
-Añade tu API Key en el archivo ExchangeRateAPI.java reemplazando el valor correspondiente.
-Ejecutar la aplicación:
-
-Compila el proyecto con tu IDE o línea de comandos.
-Ejecuta la clase Main y sigue las instrucciones en pantalla.
 Ejemplo de Uso
-markdown
-Copiar código
 Bienvenido al Conversor de Monedas
 1. Convertir Dólares a Pesos Argentinos
 2. Convertir Pesos Argentinos a Dólares
